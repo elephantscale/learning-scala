@@ -1,0 +1,21 @@
+Basics
+-----
+file : Variables
+    - declare all types of variables  (int, double, string)
+    - understand the difference between val / var
+
+file : Arrays
+    - declare an array of Ints (with / without explicit typing)
+    - declare an array of Strings
+    - print out the array elemnets as string (mkstring)
+    - print first element / last element / nth element
+    - print first 2 elements / last 2 elements
+    - prepend an element  to array (get a new array / modify the same array) (:+)
+    - append an element  to array (get a new array / modify the same array) (+:)
+
+- for loop
+     - loop 1 to 10 (including 10)
+     - loop  1 until 10 (excluding 10)
+     - loop through array of strings
+
+- process command line args, loop through print each arg capitalized
