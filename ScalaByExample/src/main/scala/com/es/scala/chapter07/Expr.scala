@@ -1,8 +1,5 @@
 package com.es.scala.chapter07
 
-/**
- * Created by mark on 7/13/15.
- */
 abstract class Expr {
   def eval(e: Expr): Int = e match {
     case Number(n) => n
