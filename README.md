@@ -2,17 +2,26 @@
 
 # learning-scala
 
-This repository contains solutions to exercises in the book "Programming in Scala" by Martin Odersky et al., 2008
+This repository is to help anyone learning Scala, with any of the two books by Martin Odersky. Here is that is has: 
 
-To clone the repo
+1. Solutions to exercises in the book "Programming in Scala" by Martin Odersky et al., 2008
+2. Solutions to exercises in the book "Scala by Example" by Martin Odersky, 2014
+
+To clone the repo   
+
 ```bash
 git clone git@github.com:elephantscale/learning-scala.git
 ```
 
+### Getting Started with "Programming in Scala"
 
-### Getting Started
-```bash
+```bash   
 cd ProgrammingInScala
+
+### Getting Started with "Scala by Example"
+
+```bash   
+cd ScalaByExample
 
 # to compile
 sbt compile
