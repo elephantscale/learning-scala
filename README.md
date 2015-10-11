@@ -9,7 +9,8 @@ This repository is to help anyone learning Scala, with any of the two books by M
 
 To clone the repo   
 
-```bash
+```bash   
+
 git clone git@github.com:elephantscale/learning-scala.git
 ```
 
@@ -17,7 +18,7 @@ git clone git@github.com:elephantscale/learning-scala.git
 
 ```bash   
 cd ProgrammingInScala
-
+```
 ### Getting Started with "Scala by Example"
 
 ```bash   
@@ -29,7 +30,7 @@ sbt compile
 # to test
 sbt test
 
-```
+
 
 
 # License
