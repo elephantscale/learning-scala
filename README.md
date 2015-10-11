@@ -2,10 +2,10 @@
 
 # learning-scala
 
-This repository is to help anyone learning Scala, with any of the two books by Martin Odersky. Here is that is has: 
+This repository is to help anyone learning Scala, with any of the two books by Martin Odersky. Here is what is has: 
 
 1. Solutions to exercises in the book "Programming in Scala" by Martin Odersky et al., 2008
-2. Solutions to exercises in the book "Scala by Example" by Martin Odersky, 2014
+2. Solutions to exercises in the book ["Scala by Example"](http://www.scala-lang.org/docu/files/ScalaByExample.pdf) by Martin Odersky, 2014
 
 To clone the repo   
 
