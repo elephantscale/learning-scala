@@ -1,4 +1,4 @@
-package com.es.scala.chapter01
+package com.es.scala.chapter02
 
 import scala.language.postfixOps
 

@@ -1,19 +1,10 @@
 package com.es.scala.chapter07
 
-/**
- * Created by mark on 7/13/15.
- */
 abstract class IntTree {
-  def contains(t: IntTree, v: IntTree): Boolean = t match {
-    case EmptyTree => true
-    case Node(elem, left, right) => true
+  def contains(t: IntTree, v: Int): Boolean = t match {
+    case EmptyTree => false
+    case Node(elem, left, right) => elem == v || contains(left, v) || contains(right, v)
   }
 }
-
-case object EmptyTree extends IntTree {
-
-}
-
-case class Node(elem: Int, left: IntTree, right: IntTree) extends IntTree {
-
-}
+case object EmptyTree extends IntTree
+case class Node(elem: Int, left: IntTree, right: IntTree) extends IntTree
